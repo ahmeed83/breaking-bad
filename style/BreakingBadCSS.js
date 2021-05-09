@@ -11,7 +11,7 @@ export default css`
 
   .card {
     background: darkgreen;
-    border-radius: 2px;
+    border-radius: 30px;
     display: inline-block;
     height: 300px;
     width: 200px;
