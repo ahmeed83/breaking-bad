@@ -43,7 +43,6 @@ export class BreakingBad extends LitElement {
   }
 
   _showMoreInfoModal() {
-    console.log(this.character)
     return html`
       <div class="card-more-info">
         <h3>Name: ${this.character.name}</h3>
