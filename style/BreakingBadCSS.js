@@ -18,6 +18,10 @@ export default css`
     border: 2px solid #000000;
   }
 
+  .card-more-info img {
+    width: inherit;
+  }
+
   .card {
     background: darkgreen;
     border-radius: 30px;

@@ -45,6 +45,7 @@ export class BreakingBad extends LitElement {
   _showMoreInfoModal() {
     return html`
       <div class="card-more-info">
+        <img src=${this.character.img} alt="">
         <h3>Name: ${this.character.name}</h3>
         <h3>Occupation: ${this.character.occupation.join(', ')}</h3>
         <h3>Birthday: ${this.character.birthday}</h3>
