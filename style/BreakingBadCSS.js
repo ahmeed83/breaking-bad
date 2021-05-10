@@ -9,6 +9,15 @@ export default css`
     background: darkolivegreen;
   }
 
+  .card-more-info {
+    background: darkgreen;
+    border-radius: 30px;
+    width: 50%;
+    padding: inherit;
+    margin: auto;
+    border: 2px solid #000000;
+  }
+
   .card {
     background: darkgreen;
     border-radius: 30px;
